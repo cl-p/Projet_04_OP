@@ -894,7 +894,9 @@ h4 {
         position: relative;
     }
     .bloc {
-        padding: env(constant(safe-area-inset));
+        padding: 
+            env(constant(safe-area-inset-right))
+            env(constant(safe-area-inset-left));
     }
     .bloc-group,
     .bloc-group .bloc {
@@ -904,7 +906,9 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding: env(constant(safe-area-inset));
+        padding: 
+            env(constant(safe-area-inset-left))
+            env(constant(safe-area-inset-right));
     }
 }
 
