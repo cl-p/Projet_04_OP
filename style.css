@@ -42,6 +42,14 @@ a:hover {
     text-align: center;
     font-size: large;
 }
+.col-sm-12 {
+    display: flex;
+    flex-direction: column;
+}
+.img-citation-pdg {
+    display: flex;
+    flex-direction: column;
+}
 
 .form-group {
     display: flex;
